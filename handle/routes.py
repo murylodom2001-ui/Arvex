@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Токен xRocket для генерации счетов
 XROCKET_API_KEY = os.getenv("XROCKET_API_KEY", "")
-XROCKET_URL = "https://pay.ton-rocket.com/tg-invoices"
+XROCKET_URL = "https://pay.tonrocket.com/tg-invoices"
 
 # Кэш file_id изображений
 PHOTO_CACHE: dict[str, str] = {}
